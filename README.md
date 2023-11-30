@@ -1,38 +1,33 @@
-# React Todo App.
+## React Task Manager with Redux
 
-SVG for CheckBox: [mentioned in the video]
+This task management application built using **React** and **Redux** offers a comprehensive platform to organize tasks efficiently. The app allows users to **add, edit, and delete tasks** while leveraging **local storage** for seamless data persistence. Notable features include **sorting tasks based on their priority levels** for better task management.
 
-```html
-<svg viewBox="0 0 53 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<path
-		fill="none"
-		strokeMiterlimit="10"
-		strokeWidth="6"
-		d="M1.5 22L16 36.5L51.5 1"
-		strokeLinejoin="round"
-		strokeLinecap="round"
-	></path>
-</svg>
-```
+### Key Features:
 
-## Starter files
+- **Task CRUD Operations**: Perform **Create, Read, Update, and Delete** operations on tasks effortlessly.
+- **Priority-Based Sorting**: Sort tasks based on their priority levels (**high, medium, low**) to focus on critical tasks first.
+- **Redux State Management**: Utilizes Redux for managing application state, ensuring smooth data flow and interactions.
+- **Local Storage Integration**: Leverages local storage to store task data persistently, enabling users to access their tasks across sessions.
 
-You can find all the starter files in `starter-files` branch. You can to go to the `starter-files` branch and `download zip` the the starter files or You can clone the project and git checkout to `starter-files` branch.
+### Technologies Used:
 
-## Getting Started
+- **React**
+- **Redux**
+- **Local Storage**
+- **JavaScript (ES6+)**
 
-The recommended way to get started with the project is Follow the `YouTube tutorial`. You will find all the step-by-step guides. Or you Can start the project on your own by following the guide below.
+### Usage:
 
-After getting the starter files, you need to go the file directory and run
+1. **Adding Tasks**: Easily add new tasks with specific details and priority levels.
+2. **Editing Tasks**: Modify task details or update priorities as needed.
+3. **Deleting Tasks**: Remove tasks that are completed or no longer required.
+4. **Sorting by Priority**: Organize tasks by priority to focus on high-priority items first.
 
-```shell
-npm install
-```
+### Installation:
 
-and after that start the dev server.
+1. Clone the repository.
+2. Run `npm install` to install project dependencies.
+3. Start the app using `npm start`.
+4. Access the task manager via your preferred web browser.
 
-```shell
-npm start
-```
-
-Happy Coding! 🚀
+This task manager application streamlines task management by combining the power of React, Redux, and local storage, offering a user-friendly interface for organizing tasks efficiently.
